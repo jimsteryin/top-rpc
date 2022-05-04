@@ -12,3 +12,30 @@ function computerPlay(){
             return "scissors";
     }
 }
+
+function play(playerSelection, computerSelection) {
+    //nested if statements for each playerSelection
+
+    if(playerSelection.lower() === "rock"){
+        switch(computerSelection){
+            case "rock":
+            case "paper":
+            case "scissors":
+        }
+    }
+    else if(playerSelection.lower() === "paper"){
+        switch(computerSelection){
+            case "rock":
+            case "paper":
+            case "scissors":
+        }
+    }
+    else{
+        switch(computerSelection){
+            case "rock":
+            case "paper":
+            case "scissors":
+        }
+    }
+
+}
